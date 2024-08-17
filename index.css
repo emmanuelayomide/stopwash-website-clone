@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 40px;
+   
+}
+.sub_container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sub_container2 ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.sub_container2 li{
+    display: inline-block;
+    padding: 10px;
+}
+.sub_container2 a{
+    text-decoration: none;
+    font-size: 20px;
+
+  
+}
+/* CHNAGES OF DESIGN */
+a:hover{
+    color: red;
+}
+/* END OF CHANGES */
+.home{
+    color: green;
+}
+.section2a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 40px;
+}
+
+.section2c img{
+    width: 200px;
+    height: auto;
+}
+#smart{
+    font-size: 300%;
+
+}
+
+.helo2{
+    margin-top: 20px;
+}
+
+.btn{
+    color:#fff;
+    background-color: orange;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* chnages of the button */
+.btn:hover{
+    color: orange;
+    background-color: #fff;
+}
+/* end of changes */
+.container3{
+    text-align: center;
+}
+.features{
+    font-size: 235%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: orange;
+}
+.boxofbossess{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box1{
+    width: 300px;
+    background-color:rgba(241, 221, 221, 0.911);
+    box-shadow: 2px 2px 2px 2px orange;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    padding: 40px;
+ 
+}
+.box1 img{
+    width: 50px;
+   display: flex;
+   justify-content: center;
+  
+   
+}
+.high{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    background-color: aliceblue;
+}
+.product2a{
+    margin-top: 30px;
+    background-color:#fff;
+    box-shadow: 10px 10px 30px 10px orange;
+    width: 350px;
+    padding: 40px;
+}
+.about1a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about1b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product2a li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.serviceimage{
+width: 250px;
+}
+@media (max-width:768px){
+    .container{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        background-color: antiquewhite;
+        padding: 20px;
+       
+    }
+    .sub_container2 li{
+        display:inline-block;
+        padding:5px;
+    }
+    .sub_container2 a{
+        text-decoration: none;
+        font-size: 15px;
+    
+      
+    }
+    .section2a{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        background-color: antiquewhite;
+        padding: 40px;
+    }
+    .boxofbossess{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        gap: 40px;
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    
+        background-color: aliceblue;
+    }
+    .centeronly{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
